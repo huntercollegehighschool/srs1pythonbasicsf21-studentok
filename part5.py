@@ -34,4 +34,6 @@ Enter the leg length: 5
 """
 
 def isotriangle(leg):
-  pass # delete this line when you start writing your code
+  num = range(1, 2*leg, 2)
+  for i in num:
+    
